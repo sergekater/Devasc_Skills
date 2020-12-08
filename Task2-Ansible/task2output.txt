@@ -1,0 +1,21 @@
+
+PLAY [Devasc_Skills Task2] *********************************************************************************************
+
+TASK [run show version on remote devices] ******************************************************************************
+ok: [CSR1kv]
+
+TASK [run show version and check to see if output contains IOS] ********************************************************
+ok: [CSR1kv]
+
+TASK [run multiple commands on remote nodes] ***************************************************************************
+ok: [CSR1kv]
+
+TASK [run multiple commands and evaluate the output] *******************************************************************
+ok: [CSR1kv]
+
+TASK [run commands that require answering a prompt] ********************************************************************
+ok: [CSR1kv]
+
+PLAY RECAP *************************************************************************************************************
+CSR1kv                     : ok=5    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
