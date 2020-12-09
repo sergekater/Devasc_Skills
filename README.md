@@ -42,6 +42,17 @@ Task verification:
 	issued following commands: docker images, docker ps
 	screenshots in Task3-Docker
 
+Task name: 
+	curl -> python
+Task preparation: 
+	install requests
+Task implementation: 
+	develop python requests from curl examples
+Task troubleshooting: 
+	not all responses return a json object
+Task verification:
+	all return codes OK
+	screenshots in Task5-REST
 
 
 
