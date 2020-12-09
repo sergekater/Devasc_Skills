@@ -1,6 +1,5 @@
 FROM alpine:3.4
 
-MAINTAINER Kim Goh <jggao [at] clustertech.com>
 
 ENV TZ=UTC
 

@@ -29,6 +29,19 @@ Task verification:
 	screenshot Task2-Ansible/Task2-Screenshot_2020-12-08_19-04-55.pngTask2-Screenshot_2020-12-08_19-04-55.png
 	all tasks returned ok
 
+Task name: 
+	Manage Docker microservices
+Task preparation: 
+	Download sample dockerfile
+Task implementation: 
+	build docker image called myntp:latest
+	run image
+Task troubleshooting: 
+	created local folders for ADD commands in Dockerfile
+Task verification:
+	issued following commands: docker images, docker ps
+	screenshots in Task3-Docker
+
 
 
 
