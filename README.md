@@ -54,6 +54,17 @@ Task verification:
 	all return codes OK
 	screenshots in Task5-REST
 
+Task name: 
+	Create Webex Teams API calls using python
+Task preparation: 
+	install requests
+Task implementation: 
+	develop python scripts to access webex API
+Task troubleshooting: 
+	none
+Task verification:
+	no error return codes
+	screenshots in Task6-Webex
 
 
 	
