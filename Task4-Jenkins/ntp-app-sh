@@ -1,0 +1,13 @@
+#!/bin/bash
+
+mkdir docker
+mkdir docker/s6
+
+mkdir usr
+mkdir usr/sbin
+mkdir usr/sbin/gosu
+
+docker build -t myntp:latest .
+docker run -d -p myntp:latest
+
+
