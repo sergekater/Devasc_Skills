@@ -8,6 +8,6 @@ mkdir usr/sbin
 mkdir usr/sbin/gosu
 
 docker build -t myntp:latest .
-docker run -d -p myntp:latest .
+docker run -d  --name=myntprun myntp:latest
 
 
