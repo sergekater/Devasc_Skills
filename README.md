@@ -13,7 +13,6 @@ Task troubleshooting:
 Task verification:
 	git status output in Task1-Git/status.txt
 
-
 Task name: 
 	Manage ansible scripts
 Task preparation: 
@@ -41,6 +40,18 @@ Task troubleshooting:
 Task verification:
 	issued following commands: docker images, docker ps
 	screenshots in Task3-Docker
+
+Task name: 
+	CI/CD Pipeline using jenkins
+Task preparation: 
+	Configure jenkins buildjob, pipeline, testjob
+Task implementation: 
+	run pipeline NTPBuildPipeline
+Task troubleshooting: 
+	shell scripts and Dockerfile had to be in the repository root
+Task verification:
+	Pipeline Output: SUCCESS
+	screenshots in Task4-Jenkins
 
 Task name: 
 	curl -> python
